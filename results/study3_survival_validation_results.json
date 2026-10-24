@@ -1,0 +1,34 @@
+{
+  "study": "Study 3: Massive Population Validation of Vascular Decoupling",
+  "cohorts": [
+    "TCGA-LUAD",
+    "GEO GSE31210"
+  ],
+  "n_total_patients": 854,
+  "n_egfr_mutant": 218,
+  "n_controls": 636,
+  "pfi_analysis": {
+    "log_rank_chi2": 148.62286227292122,
+    "log_rank_p_value": 0.0,
+    "hazard_ratio": 19.447611309846767,
+    "hazard_ratio_95ci": [
+      12.901282883863944,
+      29.315657137626143
+    ],
+    "median_pfs_high_decoupling_months": 24.0,
+    "median_pfs_low_decoupling_months": 78.62,
+    "statistically_significant": true
+  },
+  "overall_survival_analysis": {
+    "log_rank_chi2": 18.69428026346381,
+    "log_rank_p_value": 1.534420726656549e-05,
+    "hazard_ratio": 2.525237837483588,
+    "hazard_ratio_95ci": [
+      1.6235515041667623,
+      3.927701781860932
+    ],
+    "statistically_significant": true
+  },
+  "statistical_power": "> 97%",
+  "figure_file": "/home/luca/Scrivania/spatial-massive-validation-study3/results/figure_study3_kaplan_meier_validation.png"
+}
