@@ -5,7 +5,7 @@
 $^{1}$Department of Clinical Medicine and Surgery, School of Medicine, University of Naples Federico II, Via Sergio Pansini 5, 80131 Naples, Italy  
 $^*$Correspondence: `l.celebrano@studenti.unina.it` | ORCID: [0009-0007-0931-3555](https://orcid.org/0009-0007-0931-3555)  
 **Classification:** Independent Scientific Research • Computational Oncology & Population Biostatistics  
-**Repository:** [https://github.com/Lukecele/spatial-game-assay](https://github.com/Lukecele/spatial-game-assay) • **DOI (Zenodo Archive):** [10.5281/zenodo.23585216](https://doi.org/10.5281/zenodo.23585216)
+**Repository:** [https://github.com/Lukecele/spatial-massive-validation-study3](https://github.com/Lukecele/spatial-massive-validation-study3) • **DOI (Zenodo Archive):** [10.5281/zenodo.23620887](https://doi.org/10.5281/zenodo.23620887)
 
 ---
 

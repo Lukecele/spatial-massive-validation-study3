@@ -3,6 +3,7 @@ message: "If you use this clinical cohort validation, biophysical metrics, or co
 title: "Population-Scale Clinical Validation of Microvascular Decoupling as an Independent Predictor of Progression-Free Survival in EGFR-Mutant Lung Adenocarcinoma (N = 854)"
 version: 1.0.0
 date-released: 2026-10-24
+doi: "10.5281/zenodo.23620887"
 url: "https://github.com/Lukecele/spatial-massive-validation-study3"
 repository-code: "https://github.com/Lukecele/spatial-massive-validation-study3"
 license: GPL-3.0-or-later
