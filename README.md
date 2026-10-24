@@ -2,6 +2,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23620887.svg)](https://doi.org/10.5281/zenodo.23620887)
+[![CI](https://github.com/Lukecele/spatial-massive-validation-study3/actions/workflows/ci.yml/badge.svg)](https://github.com/Lukecele/spatial-massive-validation-study3/actions/workflows/ci.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Cohort Size](https://img.shields.io/badge/Cohort_Size-N%20%3D%20854-success.svg)](data/combined_filtered_massive_cohort.csv)
 [![Statistical Power](https://img.shields.io/badge/Statistical_Power-%3E%2097%25%20(α%20%3D%200.05)-brightgreen.svg)]()
