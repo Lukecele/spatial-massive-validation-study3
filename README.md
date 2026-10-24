@@ -36,21 +36,21 @@ To guarantee absolute clinical and molecular compatibility with our biophysical 
 
 ```mermaid
 flowchart TD
-    Raw["Raw Multi-Center Repositories<br>(TCGA-LUAD: 641 cases | GEO GSE31210: 246 cases)"]
+    Raw["Raw Multi-Center Repositories<br/>TCGA-LUAD: 641 cases / GEO GSE31210: 246 cases"]
     
-    T1["TIER 1: Histopathological Filter<br>Strict Primary Lung Adenocarcinoma (LUAD)<br>EXCLUDED: Squamous cell, neuroendocrine (SCLC), metastases"]
+    T1["TIER 1: Histopathological Filter<br/>Strict Primary Lung Adenocarcinoma LUAD<br/>EXCLUDED: Squamous cell, neuroendocrine, metastases"]
     Raw --> T1
     
-    T2["TIER 2: Molecular Driver Stratification<br>Verified Somatic EGFR Kinase Mutations (Ex19del / L858R)<br>vs KRAS-Mutant & EGFR-WT Controls"]
+    T2["TIER 2: Molecular Driver Stratification<br/>Verified Somatic EGFR Kinase Mutations<br/>vs KRAS-Mutant and EGFR-WT Controls"]
     T1 --> T2
     
-    T3["TIER 3: Survival Follow-Up Verification<br>Documented Positive Follow-up (PFI / PFS and OS > 0 days)<br>EXCLUDED: Perioperative mortality (<30 days), missing survival"]
+    T3["TIER 3: Survival Follow-Up Verification<br/>Documented Positive Follow-up: PFI / PFS and OS<br/>EXCLUDED: Perioperative mortality under 30 days"]
     T2 --> T3
     
-    T4["TIER 4: Pre-Treatment Specimen Integrity<br>Diagnostic Pre-Treatment Biopsies / Resections<br>EXCLUDED: Post-chemotherapy / Neoadjuvant artifact"]
+    T4["TIER 4: Pre-Treatment Specimen Integrity<br/>Diagnostic Pre-Treatment Biopsies and Resections<br/>EXCLUDED: Post-chemotherapy / Neoadjuvant artifact"]
     T3 --> T4
     
-    T5["TIER 5: Multi-Center Cohort Harmonization<br>Consolidated Cohort: N = 854 patients<br>(218 EGFR-Mutant Cases + 636 Oncogenic Controls)"]
+    T5["TIER 5: Multi-Center Cohort Harmonization<br/>Consolidated Cohort: N = 854 patients<br/>218 EGFR-Mutant Cases + 636 Oncogenic Controls"]
     T4 --> T5
 ```
 
