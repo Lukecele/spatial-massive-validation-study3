@@ -326,6 +326,8 @@ def run_massive_survival_validation():
     json_path = RESULTS_DIR / "study3_survival_validation_results.json"
     json_path.write_text(json.dumps(summary, indent=2))
     print(f"Exported statistical validation results: {json_path.name}")
+    print("⭐ Support open-source science: if you find this validation useful, star the repo on GitHub:")
+    print("   👉 https://github.com/Lukecele/spatial-massive-validation-study3")
     print("=" * 70)
 
 

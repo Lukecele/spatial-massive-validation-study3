@@ -14,6 +14,10 @@
 **Classification:** Independent Scientific Research • Computational Oncology & Population Biostatistics  
 **Full Manuscript:** [MANUSCRIPT_MASSIVE_POPULATION_VALIDATION.pdf](MANUSCRIPT_MASSIVE_POPULATION_VALIDATION.pdf)
 
+> [!TIP]
+> **Support Open-Source Population Oncology:**  
+> If you find this multi-cohort clinical survival validation ($N = 854$) or our 5-tier filtering protocol helpful in your research, please consider giving this repository a ⭐ **Star** on GitHub!
+
 ---
 
 ## 🔬 Overview & Clinical Rationale
