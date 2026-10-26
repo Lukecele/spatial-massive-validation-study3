@@ -7,12 +7,17 @@
 [![Cohort Size](https://img.shields.io/badge/Cohort_Size-N%20%3D%20854-success.svg)](data/combined_filtered_massive_cohort.csv)
 [![Statistical Power](https://img.shields.io/badge/Statistical_Power-%3E%2097%25%20(α%20%3D%200.05)-brightgreen.svg)]()
 [![Status: Peer-Review Ready](https://img.shields.io/badge/Status-Peer--Review_Ready-emerald.svg)](manuscript/MANUSCRIPT_MASSIVE_POPULATION_VALIDATION.pdf)
+[![Interactive Web Portal](https://img.shields.io/badge/Web%20Portal-Live%20Demo-brightgreen.svg)](https://lukecele.github.io/spatial-massive-validation-study3/)
 
 **Author & Principal Investigator:** Luca Celebrano  
 **Affiliation:** Department of Clinical Medicine and Surgery, School of Medicine, University of Naples Federico II, Naples, Italy  
 **Correspondence:** `l.celebrano@studenti.unina.it` | **ORCID:** [0009-0007-0931-3555](https://orcid.org/0009-0007-0931-3555)  
 **Classification:** Independent Scientific Research • Computational Oncology & Population Biostatistics  
-**Full Manuscript:** [MANUSCRIPT_MASSIVE_POPULATION_VALIDATION.pdf](MANUSCRIPT_MASSIVE_POPULATION_VALIDATION.pdf)
+**Full Manuscript:** [MANUSCRIPT_MASSIVE_POPULATION_VALIDATION.pdf](MANUSCRIPT_MASSIVE_POPULATION_VALIDATION.pdf)  
+**Live Interactive Portal:** [https://lukecele.github.io/spatial-massive-validation-study3/](https://lukecele.github.io/spatial-massive-validation-study3/)
+
+> [!NOTE]
+> 🌐 **Interactive Scientific Portal:** Explore the live population-scale clinical survival validation ($N = 854$) interactive portal at [lukecele.github.io/spatial-massive-validation-study3/](https://lukecele.github.io/spatial-massive-validation-study3/).
 
 > [!TIP]
 > **Support Open-Source Population Oncology:**  
