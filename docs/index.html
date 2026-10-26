@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Population-Scale Clinical Validation (N = 854) | Luca Celebrano</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --border: #1f2937;
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --accent: #10b981;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(180deg, #1e293b 0%, #0b0f19 100%);
+      padding: 60px 20px 40px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .badge-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      background: #1f2937;
+      color: #e5e7eb;
+      border: 1px solid #374151;
+    }
+    .badge.doi { background: #064e3b; color: #a7f3d0; border-color: #047857; }
+    .badge.suite { background: #1e3a8a; color: #bfdbfe; border-color: #1d4ed8; }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 15px;
+      letter-spacing: -0.025em;
+      background: linear-gradient(to right, #60a5fa, #38bdf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .subtitle {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 850px;
+      margin: 0 auto 25px;
+    }
+    .author-bar {
+      font-size: 0.95rem;
+      color: #d1d5db;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: #38bdf8;
+    }
+    .card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #38bdf8;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .hero-box {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-primary:hover { background: var(--primary-hover); }
+    .btn-secondary { background: #374151; color: white; }
+    .btn-secondary:hover { background: #4b5563; }
+    footer {
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="badge-container">
+      <span class="badge suite"><i class="fas fa-layer-group"></i>&nbsp;Spatial Oncology Suite</span>
+      <a href="https://doi.org/10.5281/zenodo.23620887" class="badge doi"><i class="fas fa-fingerprint"></i>&nbsp;Zenodo DOI: 10.5281/zenodo.23620887</a>
+      <span class="badge"><i class="fab fa-github"></i>&nbsp;GPL-3.0 License</span>
+    </div>
+    <h1>Population-Scale Clinical Validation (N = 854)</h1>
+    <p class="subtitle">Multi-Cohort Clinical Survival Validation of Microvascular Decoupling in EGFR-Mutant Lung Adenocarcinoma (N = 854, p < 10^-15)</p>
+    <div class="author-bar">
+      <strong>Luca Celebrano</strong> &bull; School of Medicine and Surgery, Università degli Studi di Napoli Federico II &amp; TIGEM
+    </div>
+  </header>
+
+  <div class="container">
+    
+    <div class="hero-box">
+      <h2 style="margin-bottom: 15px;">Study Overview</h2>
+      <p style="max-width: 800px; margin: 0 auto; color: #cbd5e1;">
+        Harmonized multi-center survival benchmarking across 854 primary lung adenocarcinoma patients (TCGA-LUAD + GSE31210): proving that microvascular decoupling truncates median progression-free survival from 78.6 down to 24.0 months.
+      </p>
+      <div class="btn-group">
+        <a href="https://github.com/Lukecele/spatial-massive-validation-study3" class="btn btn-primary"><i class="fab fa-github"></i> Explore GitHub Repository</a>
+        <a href="https://lukecele.github.io/spatial-oncology-master/" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Master Study Portal</a>
+      </div>
+    </div>
+
+    <div class="grid">
+      
+      <div class="card">
+        <h3><i class="fas fa-check-circle"></i> Harmonized Cohort N = 854</h3>
+        <p>Integrates multi-center clinical cohorts with verified molecular and histopathologic profiling (N = 218 verified EGFR-mutant target cohort).</p>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-check-circle"></i> Survival Disparity</h3>
+        <p>Demonstrates extreme progression-free survival divergence: median PFS of 78.6 months in coupled tumors vs 24.0 months in decoupled architectures.</p>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-check-circle"></i> Statistical Power > 97%</h3>
+        <p>Achieves statistical power exceeding 97% at alpha = 0.05, validating microvascular decoupling as a potent independent predictor of early relapse.</p>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-check-circle"></i> Rigorous 5-Tier Audit</h3>
+        <p>Applies strict quality-control filtering to eliminate clinical confounders, ensuring reproducible and un-imputed survival analytics.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Luca Celebrano &bull; Open Science Initiative under GNU General Public License v3.0</p>
+    <p style="margin-top: 5px;">Department of Clinical Medicine and Surgery, University of Naples Federico II &bull; TIGEM</p>
+  </footer>
+
+</body>
+</html>
