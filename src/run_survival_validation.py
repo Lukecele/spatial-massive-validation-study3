@@ -120,6 +120,8 @@ def estimate_hazard_ratio(times_high, events_high, times_low, events_low):
 
 def run_massive_survival_validation():
     print("=" * 70)
+    print(" ⭐ Star on GitHub: https://github.com/Lukecele/spatial-massive-validation-study3")
+    print("=" * 70)
     print("RUNNING STUDY 3 POPULATION SURVIVAL VALIDATION")
     print("=" * 70)
 

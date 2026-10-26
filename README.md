@@ -129,7 +129,8 @@ pip install numpy pandas scipy matplotlib lifelines
 
 ### 2. Execute Survival Pipeline
 ```bash
-python3 src/run_survival_validation.py
+./quickstart.sh
+# or: python3 src/run_survival_validation.py
 ```
 This recomputes all Kaplan-Meier curves, log-rank tests, hazard ratios, and generates `results/figure_study3_kaplan_meier_validation.png`.
 
