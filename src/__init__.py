@@ -1,7 +1,7 @@
 """
 spatial-massive-validation-study3: Multi-Cohort Clinical Survival Validation (N = 854)
 =====================================================================================
-Author: Luca Celebrano (School of Medicine, University of Naples Federico II & TIGEM)
+Author: Luca Celebrano (Independent Researcher, Naples, Italy)
 License: GNU General Public License v3.0 (GPL-3.0)
 DOI: 10.5281/zenodo.23620887
 """

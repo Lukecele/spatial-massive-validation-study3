@@ -10,8 +10,8 @@
 [![Interactive Web Portal](https://img.shields.io/badge/Web%20Portal-Live%20Demo-brightgreen.svg)](https://lukecele.github.io/spatial-massive-validation-study3/)
 
 **Author & Principal Investigator:** Luca Celebrano  
-**Affiliation:** Department of Clinical Medicine and Surgery, School of Medicine, University of Naples Federico II, Naples, Italy  
-**Correspondence:** `l.celebrano@studenti.unina.it` | **ORCID:** [0009-0007-0931-3555](https://orcid.org/0009-0007-0931-3555)  
+**Affiliation:** Independent Researcher, Naples, Italy  
+**Correspondence:** `luca.celebrano1@gmail.com` | **ORCID:** [0009-0007-0931-3555](https://orcid.org/0009-0007-0931-3555)  
 **Classification:** Independent Scientific Research • Computational Oncology & Population Biostatistics  
 **Full Manuscript:** [MANUSCRIPT_MASSIVE_POPULATION_VALIDATION.pdf](MANUSCRIPT_MASSIVE_POPULATION_VALIDATION.pdf)  
 **Live Interactive Portal:** [https://lukecele.github.io/spatial-massive-validation-study3/](https://lukecele.github.io/spatial-massive-validation-study3/)
@@ -153,7 +153,7 @@ If you utilize this population dataset, filtering protocol, or survival models i
   journal = {Preprint / Independent Research},
   year = {2026},
   url = {https://github.com/Lukecele/spatial-massive-validation-study3},
-  institution = {Department of Clinical Medicine and Surgery, School of Medicine, University of Naples Federico II}
+  institution = {Department of Clinical Medicine and Surgery, Independent Researcher, Naples, Italy}
 }
 ```
 
