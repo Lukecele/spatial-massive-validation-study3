@@ -1,7 +1,7 @@
 # Population-Scale Clinical Validation of Microvascular Decoupling in EGFR-Mutant Lung Adenocarcinoma (N = 854)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23620887.svg)](https://doi.org/10.5281/zenodo.23620887)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24393482-blue)](https://doi.org/10.5281/zenodo.24393482)
 [![CI](https://github.com/Lukecele/spatial-massive-validation-study3/actions/workflows/ci.yml/badge.svg)](https://github.com/Lukecele/spatial-massive-validation-study3/actions/workflows/ci.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Cohort Size](https://img.shields.io/badge/Cohort_Size-N%20%3D%20854-success.svg)](data/combined_filtered_massive_cohort.csv)
@@ -86,7 +86,7 @@ This project constitutes the definitive clinical survival validation of a 4-part
 
 1. **[Study 1: InSituGame (Assay v1.0.6)](https://github.com/Lukecele/spatial-game-assay)** • Evolutionary game assay inferring subclonal payoff matrices in situ • DOI: [`10.5281/zenodo.23585216`](https://doi.org/10.5281/zenodo.23585216)
 2. **[Study 2: Spatial Architecture & Biophysics](https://github.com/Lukecele/spatial-architecture-osimertinib)** • 10x Visium HD subcellular architecture & $\lambda \approx 624\,\mu\text{m}$ transport barrier • DOI: [`10.5281/zenodo.23620878`](https://doi.org/10.5281/zenodo.23620878)
-3. **Study 3: Massive Validation (This Repository)** • Multi-center population clinical survival validation ($p < 10^{-15}$, $HR = 19.45$, $N = 854$) • DOI: [`10.5281/zenodo.23620887`](https://doi.org/10.5281/zenodo.23620887)
+3. **Study 3: Massive Validation (This Repository)** • Multi-center population clinical survival validation ($p < 10^{-15}$, $HR = 19.45$, $N = 854$) • DOI: [`10.5281/zenodo.23620887`](https://doi.org/10.5281/zenodo.24393482)
 4. **[Study 4: InSituVision-AI (< 5 €)](https://github.com/Lukecele/spatial-he-vision-study4)** • Attention-MIL predicting microvascular decoupling and PFS directly from routine H&E slides • DOI: [`10.5281/zenodo.23621924`](https://doi.org/10.5281/zenodo.23621924)
 
 ---
